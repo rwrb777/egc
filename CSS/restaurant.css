@@ -109,7 +109,7 @@ span.menu:hover {
 /*---PAGE STYLES---*/
 
 #about-blurb h3 { /*---on about page---*/ 
-	margin: 25px 100px;
+	margin: 25px 50px;
 	padding: auto; }
 
 div#submenu { /*---on menu page---*/
@@ -147,7 +147,8 @@ div.brunchlist, div.drinklist { /*---on menu page---*/
 /*---FOOTER---*/
 
 footer {
-	margin: auto 10px;
+	border: 1px solid black;
+	margin: 5px 10px 15px;
 	padding: 10px; 
 	text-align: center;
 	background-color: white; }
