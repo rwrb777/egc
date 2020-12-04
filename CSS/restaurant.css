@@ -1,0 +1,153 @@
+/*---CORE STYLES---*/
+
+body {
+	font-size: 16px;
+	font-family: Futura, sans-serif;
+	background-color: white; }
+
+header {
+	display: block;
+	margin: 10px;
+	padding: 10px auto; }
+
+hr {
+	width: 90%;
+	border-top: 1px solid black;
+	margin-top: 10px; }
+
+main {
+	border: 1px solid black;
+	margin: auto 10px;
+	padding: 10px; 
+	background-color: white; }
+
+h2 {
+	text-align: center;
+	margin: 15px 25px;
+	padding: auto; }
+
+a, a:hover, a:active {
+	text-decoration: none; }
+
+/*---HEADER BAR BACKGROUND IMAGES---*/
+
+div.header-image-about {
+	border: 1px solid black;
+	background: url("images/brunchspread.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0; }
+
+div.header-image-menu {
+	border: 1px solid black;
+	background: url("images/menupic.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0; }
+
+div.header-image-contact {
+	border: 1px solid black;
+	background: url("images/interior.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0; }
+
+/*---ITEMS IN HEADER BAR---*/
+
+img#logo {
+	margin: 10px auto;
+	padding: 10px auto;
+	display: block;
+	align-self: center; }
+
+div#navbar {
+	display: block;
+	background-color: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	text-align: center; }
+
+span.menu {
+	display: inline-block;
+	background-color: white;
+	color: black;
+	font-size: 2rem;
+	margin: 5px 10px 5px 0px;
+	padding: 5px 25px; }
+
+span.menu.active {
+	background-color: black;
+	color: white; }
+
+span.menu:hover {
+	background-color: grey; }
+
+/*h1#name {
+	font-weight: bold;
+	font-size: 250%;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 500px;
+	height: auto;
+	margin: auto;
+	padding: auto; }*/
+
+/*---PAGE STYLES---*/
+
+#about-blurb h3 { /*---on about page---*/ 
+	margin: 25px 100px;
+	padding: auto; }
+
+div#submenu { /*---on menu page---*/
+	display: block;
+	background-color: white;
+	margin: auto 10px;
+	padding: 25px;
+	height: auto;
+	align-content: center;
+	text-align: center; }
+
+#submenu h2 { /*---on menu page---*/
+	text-align: center;
+	display: inline;
+	margin: 25px 15px;
+	padding: 5px 15px;
+	color: black;
+	background-color: grey; }
+
+.disclaimer { /*---on menu page---*/
+	text-align: center;
+	margin-bottom: 25px; }
+
+div.brunchlist, div.drinklist { /*---on menu page---*/
+	text-align: center; 
+	display: inline;}
+
+.brunchlist h3, .drinklist h3 { /*---on menu page---*/
+	margin-bottom: 0px; }
+
+.brunchlist p, .drinklist p { /*---on menu page---*/
+	margin: 5px 25px 0px;
+	padding: auto 25px; }
+
+/*---FOOTER---*/
+
+footer {
+	margin: auto 10px;
+	padding: 10px; 
+	text-align: center;
+	background-color: white; }
